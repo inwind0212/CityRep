@@ -1,0 +1,12 @@
+{
+  "task_id": "cape_town.road_density.2026",
+  "task_type": "regression",
+  "source": "OpenStreetMap drivable highway ways from Overpass, downloaded 2026-04-28; road length density on WorldPop 2024 grid",
+  "n_samples": 343593,
+  "crs": "EPSG:4326",
+  "processing": [
+    "Uses a benchmark-ready city task raster included in this release.",
+    "Samples contain finite non-nodata target cells from the task raster.",
+    "Evaluation applies registry normalization where configured."
+  ]
+}

@@ -1,0 +1,1 @@
+model,model_label,city,task,task_id,embedding_path,embedding_source_type,embedding_config,source_role,alignment_policy,available,path_exists,mentions_population,artifact_path

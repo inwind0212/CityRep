@@ -1,0 +1,87 @@
+{
+  "task_id": "london.landuse.2026",
+  "task_type": "classification",
+  "source_type": "samples",
+  "source": "Harmonized land-use point samples mapped to CityRep benchmark classes",
+  "n_samples": 100000,
+  "crs": "EPSG:4326",
+  "label_col": "label_id",
+  "label_id_col": "label_id",
+  "class_names": [
+    "Residential",
+    "Mixed Use",
+    "Commercial",
+    "Industrial",
+    "Transportation",
+    "Green / Recreation",
+    "Institutional / Civic",
+    "Utilities",
+    "Water",
+    "Agriculture / Rural",
+    "Vacant / Reserve",
+    "Other"
+  ],
+  "class_counts": {
+    "Residential": 56165,
+    "Mixed Use": 292,
+    "Commercial": 3131,
+    "Industrial": 2714,
+    "Transportation": 5486,
+    "Green / Recreation": 18065,
+    "Institutional / Civic": 0,
+    "Utilities": 0,
+    "Water": 2660,
+    "Agriculture / Rural": 11330,
+    "Vacant / Reserve": 0,
+    "Other": 157
+  },
+  "processing": [
+    "Uses benchmark-ready point samples mapped to common CityRep land-use classes.",
+    "Spatial-block evaluation uses point coordinates with a 10x10 block split."
+  ],
+  "sampling_meta": {
+    "city": "london",
+    "task": "landuse",
+    "task_type": "classification",
+    "sampling": "harmonized_point_samples",
+    "requested_samples": 100000,
+    "samples": 100000,
+    "seed": 42,
+    "crs": "EPSG:4326",
+    "class_order": [
+      "Residential",
+      "Mixed Use",
+      "Commercial",
+      "Industrial",
+      "Transportation",
+      "Green / Recreation",
+      "Institutional / Civic",
+      "Utilities",
+      "Water",
+      "Agriculture / Rural",
+      "Vacant / Reserve",
+      "Other"
+    ],
+    "class_counts": {
+      "Residential": 56165,
+      "Mixed Use": 292,
+      "Commercial": 3131,
+      "Industrial": 2714,
+      "Transportation": 5486,
+      "Green / Recreation": 18065,
+      "Institutional / Civic": 0,
+      "Utilities": 0,
+      "Water": 2660,
+      "Agriculture / Rural": 11330,
+      "Vacant / Reserve": 0,
+      "Other": 157
+    },
+    "recommended_split": {
+      "split_method": "spatial_block",
+      "n_blocks_x": 10,
+      "n_blocks_y": 10,
+      "test_ratio": 0.2,
+      "val_ratio_on_train": 0.1
+    }
+  }
+}

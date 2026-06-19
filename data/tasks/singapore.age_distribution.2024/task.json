@@ -1,0 +1,12 @@
+{
+  "task_id": "singapore.age_distribution.2024",
+  "task_type": "distribution",
+  "source": "WorldPop age-sex counts aggregated to 10 age-bin distributions, 2024",
+  "n_samples": 32990,
+  "crs": "EPSG:4326",
+  "processing": [
+    "Uses a benchmark-ready city task raster included in this release.",
+    "Samples contain finite non-nodata target cells from the task raster.",
+    "Evaluation applies registry normalization where configured."
+  ]
+}

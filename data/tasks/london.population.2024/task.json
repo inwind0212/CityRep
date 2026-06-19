@@ -1,0 +1,12 @@
+{
+  "task_id": "london.population.2024",
+  "task_type": "regression",
+  "source": "WorldPop Population Counts, constrained, 100m, R2024B, 2024",
+  "n_samples": 266183,
+  "crs": "EPSG:4326",
+  "processing": [
+    "Uses a benchmark-ready city task raster included in this release.",
+    "Samples contain finite non-nodata target cells from the task raster.",
+    "Evaluation applies registry normalization where configured."
+  ]
+}
