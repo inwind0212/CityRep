@@ -4,12 +4,11 @@ This is the evaluation-only release package for **CITYREP: A Unified Benchmark
 for Urban Representations Across Cities, Tasks, and Modalities**.
 
 Paper: https://arxiv.org/abs/2605.26036  
-arXiv:2605.26036, submitted May 25, 2026  
+arXiv:2605.26036  
 Release version: v0.1.0
 
 CityRep evaluates urban representations with spatially structured splits across
-multiple cities and downstream tasks. This package keeps the paper benchmark
-task data and evaluation runner. It is meant for users
+multiple cities and downstream tasks. It is meant for users
 who want to plug in a new embedding.
 
 ## Package Contents
