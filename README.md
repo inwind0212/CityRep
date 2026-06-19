@@ -1,4 +1,4 @@
-# CityRep Embedding Evaluation
+# CityRep
 
 This is the evaluation-only release package for **CITYREP: A Unified Benchmark
 for Urban Representations Across Cities, Tasks, and Modalities**.
