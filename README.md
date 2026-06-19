@@ -170,3 +170,19 @@ for new city-scale GeoTIFF embeddings.
 - H3 region tables: task sample points are converted to H3 cells and looked up
   in the region table.
 - Task-specific entity tables: embeddings are looked up by `sample_id`.
+
+## Citation
+
+If you use CityRep in your research, please cite:
+
+```bibtex
+@misc{liu2026cityrep,
+  title={CITYREP: A Unified Benchmark for Urban Representations Across Cities, Tasks, and Modalities},
+  author={Junyuan Liu and Xinglei Wang and Zichao Zeng and Jiazhuang Feng and Quan Qin and Ilya Ilyankou and Guangsheng Dong and Tao Cheng},
+  year={2026},
+  eprint={2605.26036},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2605.26036}
+}
+```
