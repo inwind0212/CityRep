@@ -1,0 +1,12 @@
+{
+  "task_id": "new_york.lst_day_mean.2024",
+  "task_type": "regression",
+  "source": "MODIS/Terra MOD11A2.061 8-day daytime land surface temperature annual mean, 2024",
+  "n_samples": 112433,
+  "crs": "EPSG:4326",
+  "processing": [
+    "Uses a benchmark-ready city task raster included in this release.",
+    "Samples contain finite non-nodata target cells from the task raster.",
+    "Evaluation applies registry normalization where configured."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "task_id": "mumbai.pm25.2022",
+  "task_type": "regression",
+  "source": "SEDAC/CIESIN Global Annual PM2.5 Grids, V5.GL.04, 2022",
+  "n_samples": 407,
+  "crs": "EPSG:4326",
+  "processing": [
+    "Uses a benchmark-ready city task raster included in this release.",
+    "Samples contain finite non-nodata target cells from the task raster.",
+    "Evaluation applies registry normalization where configured."
+  ]
+}

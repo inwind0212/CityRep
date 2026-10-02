@@ -1,0 +1,88 @@
+{
+  "protocols": {
+    "block10_5seed_mlp1024": {
+      "protocol_id": "block10_5seed_mlp1024",
+      "split": {
+        "method": "spatial_block",
+        "n_blocks_x": 10,
+        "n_blocks_y": 10,
+        "test_ratio": 0.2,
+        "val_ratio_on_train": 0.1,
+        "seeds": [42, 24, 7, 0, 100]
+      },
+      "predictor": {
+        "name": "mlp",
+        "hidden_dim": 1024,
+        "lr": 0.001,
+        "batch_size": 512,
+        "epochs": 100,
+        "patience": 10,
+        "device": "cpu"
+      }
+    },
+    "random_5seed_mlp1024": {
+      "protocol_id": "random_5seed_mlp1024",
+      "split": {
+        "method": "random",
+        "test_ratio": 0.2,
+        "val_ratio_on_train": 0.1,
+        "stratify_classification": true,
+        "seeds": [42, 24, 7, 0, 100]
+      },
+      "predictor": {
+        "name": "mlp",
+        "hidden_dim": 1024,
+        "lr": 0.001,
+        "batch_size": 512,
+        "epochs": 100,
+        "patience": 10,
+        "device": "cpu"
+      }
+    },
+    "block10_5seed_mlp1024_no_embedding_norm": {
+      "protocol_id": "block10_5seed_mlp1024_no_embedding_norm",
+      "alignment": {
+        "normalize": false
+      },
+      "split": {
+        "method": "spatial_block",
+        "n_blocks_x": 10,
+        "n_blocks_y": 10,
+        "test_ratio": 0.2,
+        "val_ratio_on_train": 0.1,
+        "seeds": [42, 24, 7, 0, 100]
+      },
+      "predictor": {
+        "name": "mlp",
+        "hidden_dim": 1024,
+        "lr": 0.001,
+        "batch_size": 512,
+        "epochs": 100,
+        "patience": 10,
+        "device": "cpu"
+      }
+    },
+    "random_5seed_mlp1024_no_embedding_norm": {
+      "protocol_id": "random_5seed_mlp1024_no_embedding_norm",
+      "alignment": {
+        "normalize": false
+      },
+      "split": {
+        "method": "random",
+        "test_ratio": 0.2,
+        "val_ratio_on_train": 0.1,
+        "stratify_classification": true,
+        "seeds": [42, 24, 7, 0, 100]
+      },
+      "predictor": {
+        "name": "mlp",
+        "hidden_dim": 1024,
+        "lr": 0.001,
+        "batch_size": 512,
+        "epochs": 100,
+        "patience": 10,
+        "device": "cpu"
+      }
+    }
+  }
+}

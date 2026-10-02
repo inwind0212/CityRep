@@ -1,0 +1,19 @@
+name: cityrep-embedding-eval
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python>=3.10
+  - geopandas
+  - h3-py
+  - numpy
+  - pandas
+  - pyarrow
+  - pyproj
+  - pytorch
+  - rasterio
+  - scikit-learn
+  - shapely
+  - scipy
+  - tqdm
+  - pip

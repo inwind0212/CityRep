@@ -1,0 +1,15 @@
+{
+  "task_id": "singapore.nightlight.2024",
+  "city": "singapore",
+  "task": "nightlight",
+  "year": "2024",
+  "task_type": "regression",
+  "source": "VIIRS VNL V2.2 annual nighttime lights average_masked radiance, 2024",
+  "n_samples": 3335,
+  "crs": "EPSG:4326",
+  "processing": [
+    "Uses a benchmark-ready city task raster included in this release.",
+    "Samples contain finite non-nodata target cells from the task raster.",
+    "Evaluation applies registry normalization where configured."
+  ]
+}
